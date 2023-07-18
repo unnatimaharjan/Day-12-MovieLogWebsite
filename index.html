@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Log</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <section id="user-input" class="section-box">
+        <div class="first-input">
+            <label for="title">Favorite Movie</label>
+            <input type="text" id="title">
+        </div>
+        <div class="second-input">
+            <div class="first-input">
+                <label for="extra-name">Extra information(Name of object)</label>
+                <input type="text" id="extra-name">
+            </div>
+            <div class="first-input">
+                <label for="extra-value">Extra information(Value of object)</label>
+                <input type="text" id="extra-value"></div>
+        </div>
+        <button id="add-movie-btn">Add movie</button>
+    </section>
+
+    <section id="filter-input" class="section-box">
+        <label for="filter-title">Filter By Title</label>
+        <input type="text" id="filter-title">
+        <button id="search-btn">Search</button>
+    </section>
+
+    <ul id="movie-list" class="section-box"></ul>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
